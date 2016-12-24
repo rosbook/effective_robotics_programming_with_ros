@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rosbook_arm_snippets</name>
+  <version>0.1.0</version>
+  <description>The rosbook_arm_snippets package</description>
+
+  <maintainer email="anil.mmm@gmail.com">Anil Mahtani</maintainer>
+  <maintainer email="enrique.fernandez.perdomo@gmail.com">Enrique Fernandez</maintainer>
+  <maintainer email="luis.sc@subseamechatronics.com">Luis Sanchez</maintainer>
+  <maintainer email="aaron.mr@subseamechatronics.com">Aaron Martinez</maintainer>
+
+  <author email="anil.mmm@gmail.com">Anil Mahtani</author>
+  <author email="enrique.fernandez.perdomo@gmail.com">Enrique Fernandez</author>
+  <author email="luis.sc@subseamechatronics.com">Luis Sanchez</author>
+  <author email="aaron.mr@subseamechatronics.com">Aaron Martinez</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+
+  <exec_depend>moveit_fake_controller_manager</exec_depend>
+
+  <depend>pluginlib</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_ros_perception</depend>
+</package>

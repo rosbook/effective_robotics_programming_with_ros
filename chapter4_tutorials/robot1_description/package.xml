@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot1_description</name>
+  <version>0.1.0</version>
+  <description>Robot 1 description.</description>
+
+  <maintainer email="anil.mmm@gmail.com">Anil Mahtani</maintainer>
+  <maintainer email="enrique.fernandez.perdomo@gmail.com">Enrique Fernandez</maintainer>
+  <maintainer email="luis.sc@subseamechatronics.com">Luis Sanchez</maintainer>
+  <maintainer email="aaron.mr@subseamechatronics.com">Aaron Martinez</maintainer>
+
+  <author email="anil.mmm@gmail.com">Anil Mahtani</author>
+  <author email="enrique.fernandez.perdomo@gmail.com">Enrique Fernandez</author>
+  <author email="luis.sc@subseamechatronics.com">Luis Sanchez</author>
+  <author email="aaron.mr@subseamechatronics.com">Aaron Martinez</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>fake_localization</depend>
+  <depend>laser_filters</depend>
+  <depend>map_server</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+</package>

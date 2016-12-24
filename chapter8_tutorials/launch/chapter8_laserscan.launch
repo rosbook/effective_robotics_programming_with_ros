@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node"/>
+  <node pkg="rviz" type="rviz" name="rviz"
+  args="-d $(find chapter8_tutorials)/config/laser.rviz"/>
+
+  <node pkg="chapter8_tutorials" type="c8_laserscan" name="c8_laserscan" />
+</launch>
