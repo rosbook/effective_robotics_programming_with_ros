@@ -8,6 +8,7 @@
     <param name="group"        value="$(arg group)"/>
     <param name="end_effector" value="$(arg end_effector)"/>
 
-    <rosparam command="load" file="$(find rosbook_arm_pick_and_place)/config/$(arg robot)_grasp_data.yaml"/>
+
+    <rosparam command="load" file="$(find rosbook_arm_pick_and_place)/config/rosbook_arm_grasp_data.yaml"/>
   </node>
 </launch>

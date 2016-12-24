@@ -38,7 +38,7 @@ class CokeCanPickAndPlace:
         self._grasp_object_width = rospy.get_param('~grasp_object_width', 0.06)
 
         self._arm_group     = rospy.get_param('~arm', 'arm')
-        self._gripper_group = rospy.get_param('~gripper', 'gripper')
+        #self._gripper_group = rospy.get_param('~gripper', 'gripper')
 
         self._approach_retreat_desired_dist = rospy.get_param('~approach_retreat_desired_dist', 0.6)
         self._approach_retreat_min_dist = rospy.get_param('~approach_retreat_min_dist', 0.4)
@@ -74,7 +74,7 @@ class CokeCanPickAndPlace:
 
         # Retrieve groups (arm and gripper):
         self._arm     = self._robot.get_group(self._arm_group)
-        self._gripper = self._robot.get_group(self._gripper_group)
+        #self._gripper = self._robot.get_group(self._gripper_group)
 
         # Create grasp generator 'generate' action client:
         self._grasps_ac = SimpleActionClient('/moveit_simple_grasps_server/generate', GenerateGraspsAction)
