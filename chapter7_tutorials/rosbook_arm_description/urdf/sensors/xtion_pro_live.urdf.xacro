@@ -17,7 +17,7 @@
 
     <!-- frames in the center of the camera -->
     <joint name="${name}_joint" type="fixed">
-      <insert_block name="origin"/>
+      <xacro:insert_block name="origin"/>
       <parent link="${parent}_link"/>
       <child link="${name}_link"/>
     </joint>
@@ -40,7 +40,7 @@
     </link>
 
     <joint name="${name}_optical_joint" type="fixed">
-      <insert_block name="optical_origin"/>
+      <xacro:insert_block name="optical_origin"/>
       <parent link="${name}_link"/>
       <child link="${name}_optical_frame"/>
     </joint>
