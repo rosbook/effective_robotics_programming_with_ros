@@ -2,7 +2,7 @@
   <arg name="robot" default="base"/>
 
   <!-- Load URDF into ROS param server -->
-  <param name="robot_description" command="$(find xacro)/xacro
+  <param name="robot_description" command="$(find xacro)/xacro --inorder
     '$(find rosbook_arm_description)/robots/rosbook_arm_$(arg robot).urdf.xacro'"/>
 
   <!-- Joint limits -->
