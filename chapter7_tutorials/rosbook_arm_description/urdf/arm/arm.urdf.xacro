@@ -1,4 +1,4 @@
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:include filename="$(find rosbook_arm_description)/urdf/deg_to_rad.xacro"/>
   <xacro:include filename="$(find rosbook_arm_description)/urdf/inertia.xacro"/>
