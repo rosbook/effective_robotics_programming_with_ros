@@ -22,5 +22,4 @@
   <exec_depend>rosbook_arm_moveit_config</exec_depend>
   <exec_depend>rosbook_arm_controller_configuration</exec_depend>
   <exec_depend>rosbook_arm_description</exec_depend>
-  <exec_depend>play_motion</exec_depend>
 </package>
