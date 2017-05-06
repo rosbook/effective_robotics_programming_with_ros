@@ -42,10 +42,10 @@ cd ..
 rosdep install --from-paths src -iy
 ```
 
-Build the source code (alternatively, you can use `catkin build` instead of `catkin_make`):
+Build the source code:
 ``` bash
 source /opt/ros/$(rosversion -d)/setup.bash
-catkin_make -j4
+catkin build -j4 -p4 --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
 source devel/setup.bash
 ```
 
