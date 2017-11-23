@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="model" />
+	<arg name="gui" default="False" />
+	<param name="robot_description" textfile="$(find chapter8_tutorials)/urdf/robot2.urdf" />
+	<param name="use_gui" value="$(arg gui)"/>
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find chapter8_tutorials)/config/config.rviz" />
+	<node name="c8_odom" pkg="chapter8_tutorials" type="c8_odom" ></node> 
+	<node name="joy_node" pkg="joy" type="joy_node" ></node>
+	<node name="c8_teleop_joy" pkg="chapter8_tutorials" type="c8_teleop_joy" ></node>   
+</launch>
