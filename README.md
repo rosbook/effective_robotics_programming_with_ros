@@ -33,7 +33,7 @@ wstool init
 
 Download this repository:
 ``` bash
-wstool set ros_book --git git@github.com:rosbook/effective_robotics_programming_with_ros.git
+wstool set ros_book -y --git git@github.com:rosbook/effective_robotics_programming_with_ros.git
 wstool up -j8
 ```
 
