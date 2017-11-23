@@ -2,7 +2,7 @@
 
 [**Effective Robotics Programming with ROS - Third Edition**](https://www.packtpub.com/hardware-and-creative/effective-robotics-programming-ros-third-edition)'s book tutorials source code.
 
-<a href="https://www.packtpub.com/hardware-and-creative/effective-robotics-programming-ros-third-edition"><img src=https://www.packtpub.com/sites/default/files/3654OS_5576_Effective%20Robotics%20Programming%20with%20ROS,%20Third%20Edition.jpg width=200/></a>
+<a href="https://www.packtpub.com/hardware-and-creative/effective-robotics-programming-ros-third-edition"><img src=https://www.packtpub.com/sites/default/files/3654OS_5576_Effective%20Robotics%20Programming%20with%20ROS,%20Third%20Edition.png width=200/></a>
 
 ## Authors ##
 
