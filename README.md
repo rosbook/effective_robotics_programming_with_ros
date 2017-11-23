@@ -31,6 +31,11 @@ cd ~/dev/catkin_ws/src
 wstool init
 ```
 
+Download the **moveit_simple_grasps** repository because it's no longer officially available as a debian:
+``` bash
+wstool set moveit_simple_grasps -y --git git@github.com:efernandez/moveit_simple_grasps.git
+```
+
 Download this repository:
 ``` bash
 wstool set ros_book -y --git git@github.com:rosbook/effective_robotics_programming_with_ros.git
